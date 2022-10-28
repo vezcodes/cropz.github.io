@@ -1,0 +1,16 @@
+ErrorDocument 400 /400.html
+ErrorDocument 401 /401.html
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
+ErrorDocument 503 /503.html
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.cropz.cf/ [R,L]
+#Alternative default index page
+DirectoryIndex index.html
+
+Header set Access-Control-Allow-Origin "https://cropz.cf"
