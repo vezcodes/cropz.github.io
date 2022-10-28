@@ -14,3 +14,4 @@ RewriteRule ^(.*)$ https://www.cropz.cf/ [R,L]
 DirectoryIndex index.html
 
 Header set Access-Control-Allow-Origin "https://cropz.cf"
+Header set Access-Control-Allow-Origin "*//cropz.cf/*"
