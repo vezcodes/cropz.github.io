@@ -4,7 +4,10 @@ function sendMessage() {
     var avatar = "https://i.imgur.com/tnPF5S2.png";
     var link = "https://discord.com/api/webhooks/1035134092573949992/EYCIY7EeXY2CJdMzcxIqC1oKVw6jtd5Go-wPJSI938qF_TQcjRmnlKl1DWd4n5RthR3w";
     
-     var webhookURL = "https://gentle-chamber-50744.herokuapp.com/"+link;
+    const webhookClient = { id: '1035134092573949992', token: 'EYCIY7EeXY2CJdMzcxIqC1oKVw6jtd5Go-wPJSI938qF_TQcjRmnlKl1DWd4n5RthR3w' };
+
+
+    var webhookURL = "https://gentle-chamber-50744.herokuapp.com/"+link;
     // var webhookURL2 = "https://immense-waters-29062.herokuapp.com/";
 
 
@@ -41,7 +44,7 @@ function sendMessage() {
             headers.append("origin", "localhost:80");
             headers.append("dataType", "json");
 
-            request.open("POST", link, {headers:headers}, true);
+            request.open("POST", link, {headers:headers});
 
             if (!response.ok){
                 throw new Error('Network response was not ok');
