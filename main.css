@@ -5,7 +5,7 @@
 :root, .theme-light {
   --rgb-highlight: 4, 217, 255;
   --highlight: var(--text-color);
-  --background: #0f0f0f;
+  --background: #15161a67;
   --text-color: #3caf3c;
   --close-button: var(--dnd-color) !important;
   --online-color: #39ff14;
@@ -75,7 +75,7 @@ html,body::before, .root-2zfUH6::before,
   content: " ";
   display: block;
   position: absolute;
-  background-color: #0f0f0f52;
+  background-color: #0f0f0f23;
   top: 0;
   left: 0;
   bottom: 0;
