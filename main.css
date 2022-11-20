@@ -5,7 +5,7 @@
 :root, .theme-light {
   --rgb-highlight: 4, 217, 255;
   --highlight: var(--text-color);
-  --background: #15161abe;
+  --background: #2021278a;
   --text-color: #3caf3c;
   --close-button: var(--dnd-color) !important;
   --online-color: #39ff14;
