@@ -52,7 +52,7 @@
 
 /* VERSION INFO */
 .info-3pQQBb:last-child::after {
-  content: "UsiCord V1.0.1";
+  content: "UsiCord V2.3.5";
   font-size: 14px;
   line-height: 16px;
   color: var(--highlight);
