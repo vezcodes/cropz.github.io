@@ -124,9 +124,9 @@ body *, .userPopout-3XzG_A * {
   -webkit-mask-size: cover;
   background-color: var(--highlight);
   width: 135px !important;
-  height: 25px !important;
-  /* position: relative;
-  top: 0px; */
+  height: 27px !important;
+  position: absolute;
+  top: 0px;
 }
 
 
