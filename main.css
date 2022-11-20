@@ -118,13 +118,15 @@ body *, .userPopout-3XzG_A * {
 
 .wordmarkWindows-2dq6rw::after {
   content: '';
-  display: inline-block;
+  display:inline-block;
   -webkit-mask-image: url("https://vezcodes.github.io/title.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--highlight);
-  width: 240px !important;
-  height: 14px !important;
+  width: 135px !important;
+  height: 25px !important;
+  /* position: relative;
+  top: 0px; */
 }
 
 
