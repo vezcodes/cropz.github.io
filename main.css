@@ -102,10 +102,10 @@ body *, .userPopout-3XzG_A * {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--highlight);
-  width: 135px !important;
+  width: 105px !important;
   height: 28px !important;
   position: absolute;
-  top: -4px;
+  top: -7px;
   left: -5px;
 }
 
